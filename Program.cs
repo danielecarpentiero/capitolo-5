@@ -25,14 +25,6 @@ while (!exit)
     }
     else
     {
-        char c = char.ToUpper(Console.ReadKey().KeyChar);
-        if (c == 'x')
-        {
-            exit = true;
-        }
-        else
-        {
-            Console.WriteLine("Input non valido");
-        }
+        Console.WriteLine("Input non valido.");
     }
 }
